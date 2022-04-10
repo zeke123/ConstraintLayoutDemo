@@ -33,6 +33,7 @@ public class CircularActivity extends AppCompatActivity {
             }
         });
 
+
         ValueAnimator moonAnimator = ValueAnimator.ofFloat(0f, 1f);
         moonAnimator.setDuration(10000L);
         moonAnimator.setRepeatCount(ValueAnimator.INFINITE);
