@@ -48,6 +48,10 @@ public class CircularActivity extends AppCompatActivity {
         });
 
 
+
+
+
+
         imageViewSun.setOnClickListener(view -> {
             earthAnimator.start();
             moonAnimator.start();
